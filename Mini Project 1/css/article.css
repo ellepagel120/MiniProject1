@@ -1,0 +1,62 @@
+
+
+.container1 {
+	width: 400px;
+	height: 600px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background: url(../images/Phase1-04.png);
+	background-size: 100%;
+	text-align: center
+	z-index: -1;
+
+}
+
+.image{
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title {
+	font-family: 'Oswald';
+	font-size: 2em;
+	color: black;
+	padding-top: 75px;
+	/*position: relative;
+	left: 70%;
+	top: 15%;
+	transform: translate(-50%,-50%);*/
+
+}
+
+.title:hover {
+	transform: scale(1.1);
+	transition-duration: 2s;
+
+}
+
+.subhead {
+	font-family:'Open Sans';
+	font-size: 1em;
+	color: #2c2c2c;
+	padding-top: 10px;
+	/*position: relative;
+	left: 70%;
+	top: 15%;
+	transform: translate(-50%,-50%);*/
+}
+
+.red {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	z-index: 1;
+} 
+
+
+
+
